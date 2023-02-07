@@ -1,0 +1,391 @@
+/*Reglas generales*/
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: rgb(179, 179, 179);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#subrayo {
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Creacion-Hospi {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#Expname {
+    padding-right: 5%;
+}
+
+#simbologia {
+    padding-left: 5%;
+}
+
+#simbologia1 {
+    text-align: center;
+    margin: 4px;
+    border-radius: 10%;
+    border: 4px solid black;
+    padding-bottom: 10px;
+}
+
+#interes1 {
+    text-align: center;
+    border-radius: 10%;
+    border: 4px solid black;
+}
+
+#Interes {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 10%;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    width: 107%;
+}
+
+#borders {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#Piepag {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.blanco {
+    color: white;
+}
+
+
+/*imagenes*/
+
+#card-1 {
+    background-image: url("../img/img1.png");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-2 {
+    border-radius: 10%;
+    border: 4px solid black;
+    background-image: url("../img/escudo.png");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-3 {
+    background-image: url("../img/escudo.png");
+    border-radius: 10%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#card-4 {
+    background-image: url("../img/bandera_hospi.png");
+    border-radius: 10%;
+    height: 40vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-5 {
+    background-image: url("../img/gran_via.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url("../img/LaFargaCentroComercial_1.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url("../img/el_casino.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-8 {
+    background-image: url("../img/hospi_ermita.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+#card-9 {
+    background-image: url("../img/feixa_llarga.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+#card-10 {
+    background-image: url("../img/rambla_hospi.jpeg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+#card-11 {
+    background-image: url("../img/plaza_repartidos.jpeg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+#card-12 {
+    background-image: url("../img/Poliesportiu_Municipal_del_Centre_de_l\'Hospitalet.jfif");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+#card-13 {
+    background-image: url("../img/Spain.Catalonia.Hospitalet.Hotel.Hesperia.Plantilla.jfif");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+}
+
+
+/*Redimension de la fuente de la pagina*/
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0px;
+    background-color: rgba(245, 245, 245, 0.25);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    margin-top: 0%;
+}
+
+
+/*clear floats after the columns*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Columnas*/
+
+.column-index {
+    width: 20%;
+    float: left;
+    position: fixed;
+}
+
+.column-pag {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    background-color: white;
+}
+
+.column-noticias {
+    width: 20%;
+    float: left;
+    position: fixed;
+    margin-left: 80%;
+    text-align: center;
+}
+
+.column-noticias1 {
+    padding: 5%;
+}
+
+.column-bandera {
+    width: 60%;
+    float: left;
+}
+
+.column-imagen {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.column-mapa {
+    margin-left: 5%;
+    width: 60%;
+    float: left;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33%;
+    float: left;
+}
+
+.column-escudo {
+    width: 33%;
+    float: left;
+}
+
+
+/*Media Query*/
+
+@media only screen and (max-width: 600px) {
+    #simbologia {
+        margin-left: 2%;
+        padding-right: 6.5%;
+        padding-left: 0%;
+    }
+    #card-2 {
+        border-radius: 10%;
+        border: 4px solid black;
+        background-image: url("../img/Fondo_titulo.jpg");
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        margin-left: 2.5%;
+    }
+    .column-index {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    .column-pag {
+        width: 100%;
+        float: left;
+        background-color: white;
+        margin: 0px;
+    }
+    .column-noticias {
+        width: 100%;
+        float: left;
+        text-align: center;
+        position: relative;
+        margin: 0px;
+    }
+    .column-2 {
+        width: 100%;
+        float: left;
+    }
+    .column-3 {
+        width: 100%;
+        float: left;
+    }
+    .column-imagen {
+        width: 100%;
+        float: left;
+        padding: 0%;
+    }
+    .column-mapa {
+        margin-left: 0%;
+        width: 100%;
+        float: left;
+    }
+    iframe {
+        margin-top: 5%;
+        width: 100%
+    }
+    .column-escudo {
+        width: 100%;
+        float: left;
+        margin-right: 5%;
+    }
+    .column-bandera {
+        width: 100%;
+        float: left;
+        margin-right: 5%;
+    }
+}
