@@ -1,4 +1,4 @@
-/*Reglas generales*/
+/* GENERAL */
 
 html {
     font-size: 16px;
@@ -9,6 +9,7 @@ html {
 
 #subrayo {
     text-decoration: underline;
+    text-align: center;
 }
 
 * {
@@ -20,12 +21,18 @@ body {
 }
 
 header {
+    height: 50vh;
     margin-bottom: 5%;
+    background-image: url("../img/portada.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
 }
 
 li>a {
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 .flex {
@@ -34,7 +41,7 @@ li>a {
     justify-content: center;
 }
 
-#Creacion-Hospi {
+#Ubicacion-Cubelles {
     padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -52,14 +59,14 @@ li>a {
     text-align: center;
     margin: 4px;
     border-radius: 10%;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
     padding-bottom: 10px;
 }
 
 #interes1 {
     text-align: center;
     border-radius: 10%;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 #Interes {
@@ -91,11 +98,15 @@ iframe {
     color: white;
 }
 
+#rutas {
+    text-align: center;
+}
 
-/*imagenes*/
+
+/* IMG */
 
 #card-1 {
-    background-image: url("../img/img2.png");
+    background-image: url("../img/portada.png");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -103,7 +114,7 @@ iframe {
 
 #card-2 {
     border-radius: 10%;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);;
     background-image: url("../img/img1.png");
     height: 40vh;
     background-size: cover;
@@ -146,6 +157,14 @@ iframe {
     background-position: center;
 }
 
+#card-7 {
+    background-image: url("../img/rio.png");
+    border-radius: 10%;
+    height: 40vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
 
 #card-8 {
     background-image: url("../img/img3.png");
@@ -154,7 +173,7 @@ iframe {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 #card-9 {
@@ -164,7 +183,7 @@ iframe {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 #card-10 {
@@ -174,7 +193,7 @@ iframe {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 #card-11 {
@@ -184,7 +203,7 @@ iframe {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 #card-12 {
@@ -194,7 +213,7 @@ iframe {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 #card-13 {
@@ -204,11 +223,52 @@ iframe {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border: 4px solid black;
+    border: 4px solid rgb(248, 233, 173);
+}
+
+#card-14 {
+    background-image: url("../img/casco.png");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgb(248, 233, 173);
+}
+
+#card-15 {
+    background-image: url("../img/naturaleza.png");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgb(248, 233, 173);
+}
+
+#card-16 {
+    background-image: url("../img/agua.png");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgb(248, 233, 173);
+}
+
+#card-17 {
+    background-image: url("../img/charlie2.png");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgb(248, 233, 173);
 }
 
 
-/*Redimension de la fuente de la pagina*/
+
+/* FUNTE DE LA PAGINA */
 
 p {
     font-size: 1rem;
@@ -240,7 +300,7 @@ h6 {
 }
 
 
-/*clear floats after the columns*/
+/* CLEAR FLOATS AFTER THE COLUMNS */
 
 .row:after {
     content: "";
@@ -249,7 +309,7 @@ h6 {
 }
 
 
-/*Columnas*/
+/* COLUMNAS */
 
 .column-index {
     width: 20%;
@@ -313,8 +373,13 @@ h6 {
     float: left;
 }
 
+.column-4 {
+    width: 25%;
+    float: left;
+}
 
-/*Media Query*/
+
+/* MEDIA QUERY */
 
 @media only screen and (max-width: 600px) {
     #simbologia {
@@ -324,7 +389,7 @@ h6 {
     }
     #card-2 {
         border-radius: 10%;
-        border: 4px solid black;
+        border: 4px solid rgb(248, 233, 173);;
         background-image: url("../img/Fondo_titulo.jpg");
         height: 40vh;
         background-size: cover;
@@ -354,6 +419,10 @@ h6 {
         float: left;
     }
     .column-3 {
+        width: 100%;
+        float: left;
+    }
+    .column-4 {
         width: 100%;
         float: left;
     }
