@@ -3,7 +3,7 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(248, 233, 173);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -95,7 +95,7 @@ iframe {
 /*imagenes*/
 
 #card-1 {
-    background-image: url("../img/img1.png");
+    background-image: url("../img/img2.png");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -104,7 +104,7 @@ iframe {
 #card-2 {
     border-radius: 10%;
     border: 4px solid black;
-    background-image: url("../img/escudo.png");
+    background-image: url("../img/img1.png");
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -120,7 +120,7 @@ iframe {
 }
 
 #card-4 {
-    background-image: url("../img/bandera_hospi.png");
+    background-image: url("../img/bandera.png");
     border-radius: 10%;
     height: 40vh;
     margin-bottom: 10px;
@@ -129,7 +129,7 @@ iframe {
 }
 
 #card-5 {
-    background-image: url("../img/gran_via.jpg");
+    background-image: url("../img/charlie.png");
     border-radius: 10%;
     height: 40vh;
     margin-bottom: 10px;
@@ -138,7 +138,7 @@ iframe {
 }
 
 #card-6 {
-    background-image: url("../img/LaFargaCentroComercial_1.jpg");
+    background-image: url("../img/CUBELLES\ -\ ESGLÈSIA\ SANTA\ MARIA.png");
     border-radius: 10%;
     height: 40vh;
     margin-bottom: 10px;
@@ -146,17 +146,9 @@ iframe {
     background-position: center;
 }
 
-#card-7 {
-    background-image: url("../img/el_casino.jpg");
-    border-radius: 10%;
-    height: 40vh;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-}
 
 #card-8 {
-    background-image: url("../img/hospi_ermita.jpg");
+    background-image: url("../img/img3.png");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
@@ -166,7 +158,7 @@ iframe {
 }
 
 #card-9 {
-    background-image: url("../img/feixa_llarga.jpg");
+    background-image: url("../img/img4.png");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
@@ -176,7 +168,7 @@ iframe {
 }
 
 #card-10 {
-    background-image: url("../img/rambla_hospi.jpeg");
+    background-image: url("../img/img5.png");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
@@ -186,7 +178,7 @@ iframe {
 }
 
 #card-11 {
-    background-image: url("../img/plaza_repartidos.jpeg");
+    background-image: url("../img/img6.png");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
@@ -196,7 +188,7 @@ iframe {
 }
 
 #card-12 {
-    background-image: url("../img/Poliesportiu_Municipal_del_Centre_de_l\'Hospitalet.jfif");
+    background-image: url("../img/img7.png");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
@@ -206,7 +198,7 @@ iframe {
 }
 
 #card-13 {
-    background-image: url("../img/Spain.Catalonia.Hospitalet.Hotel.Hesperia.Plantilla.jfif");
+    background-image: url("../img/img8.png");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
@@ -224,6 +216,7 @@ p {
 
 h1 {
     font-size: 3rem;
+    text-align: center;
     margin: 0px;
     background-color: rgba(245, 245, 245, 0.25);
     font-weight: bold;
